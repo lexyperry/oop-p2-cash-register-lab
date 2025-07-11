@@ -51,8 +51,4 @@ class CashRegister:
     for _ in range(quantity):
       if item in self.items:
         self.items.remove(item)
-   
-
-    
-
-
+        
